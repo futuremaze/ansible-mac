@@ -35,9 +35,11 @@ homebrew_cask_repositories:
 #
 # state choices: [present, absent, installed, uninstalled] (default: present)
 homebrew_cask_packages:
+  - atom
   - google-chrome
   - google-japanese-ime
   - karabiner
   - slack
   - vagrant
   - virtualbox
+  - spectacle
