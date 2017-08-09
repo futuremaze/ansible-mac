@@ -12,6 +12,6 @@ brew install ansible git
 
 # Provision.
 mkdir ~/.provision
-cd !$
+cd $_
 git clone https://github.com/futuremaze/ansible-mac.git .
 ansible-playbook ./localhost.yml
