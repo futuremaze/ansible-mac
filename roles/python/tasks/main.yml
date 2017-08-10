@@ -6,3 +6,8 @@
       export PYENV_ROOT="$HOME/.pyenv"
       export PATH="$PYENV_ROOT/bin:$PATH"
       eval "$(pyenv init -)"
+
+- name: Ensure to install python.
+  shell: |
+    source {{ lookup('env', 'HOME') }}/.bash_profile
+    pyenv install {{ python_version }}

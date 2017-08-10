@@ -45,3 +45,5 @@ homebrew_cask_packages:
   - spectacle
   - clipy
   - appcleaner
+
+python_version: 3.6.2
