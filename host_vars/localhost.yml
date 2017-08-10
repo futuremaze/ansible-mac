@@ -20,6 +20,7 @@ homebrew_packages:
   - git
   - git-flow
   - vim
+  - pyenv
 
 # Tap external Homebrew Cask repositories.
 homebrew_cask_repositories:
@@ -43,3 +44,4 @@ homebrew_cask_packages:
   - virtualbox
   - spectacle
   - clipy
+  - appcleaner
