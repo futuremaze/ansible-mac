@@ -47,3 +47,6 @@ homebrew_cask_packages:
   - appcleaner
 
 python_version: 3.6.2
+
+python_pip_packages:
+  - pytest
