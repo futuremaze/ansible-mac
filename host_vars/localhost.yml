@@ -45,6 +45,7 @@ homebrew_cask_packages:
   - spectacle
   - clipy
   - appcleaner
+  - dropbox
 
 python_version: 3.6.2
 
