@@ -46,6 +46,7 @@ homebrew_cask_packages:
   - clipy
   - appcleaner
   - dropbox
+  - flux
 
 python_version: 3.6.2
 
