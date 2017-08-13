@@ -53,3 +53,4 @@ python_version: 3.6.2
 python_pip_packages:
   - pytest
   - flake8
+  - requests
